@@ -11,7 +11,7 @@ pip install -e .
 YOLO may be used directly in a Python environment, and accepts [arguments](https://docs.ultralytics.com/usage/cfg/) :
 
 ```python
-from ultralytics_npy import YOLO
+from ultralytics import YOLO
 
 # Load a model
 model = YOLO("yolo11n.pt")
